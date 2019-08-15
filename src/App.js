@@ -1,24 +1,31 @@
+// @flow
+
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+
+import { Link, Router } from '@reach/router';
+import { Home } from './home/Home';
+import { Dashboard } from './dashboard/Dashboard';
+import { Invoices } from './Invoices/Invoices';
+import { Invoice } from './Invoices/Invoice/Invoice';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Tutorial!</h1>
+      <nav>
+        <Link to="/">Home</Link>{' '}
+        <Link to="dashboard/users">Dashboard For Users</Link>{' '}
+        <Link to="dashboard/admins">Dashboard For Admins</Link>{' '}
+        <Link to="invoices">Invoices</Link>
+      </nav>
+      <Router>
+        <Home path="/" />
+        <Dashboard path="/dashboard/:name" />
+        <Invoices path="/invoices">
+          <Invoice path=":invoiceId"></Invoice>
+        </Invoices>
+      </Router>
     </div>
   );
 }
