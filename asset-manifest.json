@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/cra-practice/static/css/main.c162c1c1.chunk.css",
+    "main.js": "/cra-practice/static/js/main.7d10dc04.chunk.js",
+    "main.js.map": "/cra-practice/static/js/main.7d10dc04.chunk.js.map",
+    "runtime~main.js": "/cra-practice/static/js/runtime~main.eab87c21.js",
+    "runtime~main.js.map": "/cra-practice/static/js/runtime~main.eab87c21.js.map",
+    "static/css/2.c2b180e8.chunk.css": "/cra-practice/static/css/2.c2b180e8.chunk.css",
+    "static/js/2.77cefdf5.chunk.js": "/cra-practice/static/js/2.77cefdf5.chunk.js",
+    "static/js/2.77cefdf5.chunk.js.map": "/cra-practice/static/js/2.77cefdf5.chunk.js.map",
+    "index.html": "/cra-practice/index.html",
+    "precache-manifest.5fcf394706ca8d75fae79ab1796922da.js": "/cra-practice/precache-manifest.5fcf394706ca8d75fae79ab1796922da.js",
+    "service-worker.js": "/cra-practice/service-worker.js",
+    "static/css/2.c2b180e8.chunk.css.map": "/cra-practice/static/css/2.c2b180e8.chunk.css.map",
+    "static/css/main.c162c1c1.chunk.css.map": "/cra-practice/static/css/main.c162c1c1.chunk.css.map"
+  }
+}
