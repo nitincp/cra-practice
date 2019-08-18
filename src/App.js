@@ -12,7 +12,10 @@ import { Invoice } from './Invoices/Invoice/Invoice';
 function App() {
   return (
     <div>
-      <h1>Tutorial!</h1>
+      <h1>
+        Tutorial! for {process.env.REACT_APP_NAME}(
+        {process.env.REACT_APP_ENVIRONMENT})
+      </h1>
       <nav>
         <Link to="/">Home</Link>{' '}
         <Link to="dashboard/users">Dashboard For Users</Link>{' '}
