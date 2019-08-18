@@ -60,5 +60,14 @@
     "@testing-library/react": "^9.1.3",
     "flow-bin": "^0.105.2",
     "sass": "^1.22.9"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!<rootDir>/node_modules/",
+      "!src/stories/**",
+      "!<rootDir>/src/index.js",
+      "!<rootDir>/src/serviceWorker.js"
+    ]
   }
 }
