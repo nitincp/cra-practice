@@ -5,6 +5,7 @@
   "dependencies": {
     "@reach/router": "^1.2.1",
     "bootstrap": "^4.3.1",
+    "gh-pages": "^2.1.1",
     "husky": "^3.0.3",
     "lint-staged": "^9.2.1",
     "prettier": "^1.18.2",
@@ -21,6 +22,8 @@
     ]
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -69,5 +72,6 @@
       "!<rootDir>/src/index.js",
       "!<rootDir>/src/serviceWorker.js"
     ]
-  }
+  },
+  "homepage": "https://nitincp.github.io/cra-practice"
 }
